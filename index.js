@@ -1,5 +1,8 @@
 // index.js
-
 document.addEventListener('DOMContentLoaded', () => {
-    console.log('Page loaded and JavaScript is running.');
-  });
+    const toggle = document.getElementById('darkModeToggle');
+
+    toggle.addEventListener('change', () => {
+        document.body.classList.toggle('dark-mode');
+    });
+});

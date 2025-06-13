@@ -4,8 +4,40 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     color: #333;
-  }
-  
-  h1 {
+}
+
+h1 {
     margin-bottom: 20px;
-  }
+}
+
+/* Dark Mode Overrides */
+body.dark-mode {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+body.dark-mode .navbar {
+    background-color: #1e1e1e !important;
+    border-bottom: 1px solid #444;
+}
+
+body.dark-mode .nav-link,
+body.dark-mode .navbar-brand,
+body.dark-mode .form-check-label {
+    color: #f1f1f1 !important;
+}
+
+body.dark-mode .nav-link:hover {
+    color: #ccc !important;
+}
+
+/* Icon appearance */
+#moonIcon {
+    vertical-align: middle;
+    filter: brightness(0) saturate(100%);
+}
+
+/* In dark mode, invert the icon for visibility */
+body.dark-mode #moonIcon {
+    filter: invert(100%);
+}
