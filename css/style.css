@@ -292,15 +292,19 @@ nav {
   gap: 12px;
 }
 
-.section-label.in-view {
-  color: var(--muted);
-}
-
 .section-label::after {
   content: '';
   flex: 1;
   height: 1px;
   background: currentColor;
+}
+
+.section-label.in-view {
+  color: var(--white);
+}
+
+.section-label.in-view::after {
+  opacity: 0.5;
 }
 
 hr.div {
