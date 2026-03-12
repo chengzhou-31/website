@@ -40,10 +40,13 @@ document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 ───────────────────────────────────────── */
 const sections = document.querySelectorAll('section[id]');
 const navLinks  = document.querySelectorAll('.nav-links a');
+const navName = document.querySelector('a.nav-name');
 
 const navObserver = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (!entry.isIntersecting) return;
+    const isHero = entry.target.id === 'hero';
+    navName.classList.toggle('active', isHero);
     navLinks.forEach(a => {
       a.classList.toggle('active', a.getAttribute('href') === '#' + entry.target.id);
     });
