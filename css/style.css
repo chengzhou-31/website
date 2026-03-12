@@ -96,6 +96,7 @@ nav {
   padding: 8px 10px;
   opacity: 0;
   animation: dropIn .6s .2s var(--ease) forwards;
+  cursor: none;
 }
 
 .nav-name {
