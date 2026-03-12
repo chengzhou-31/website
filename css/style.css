@@ -105,6 +105,7 @@ nav {
   letter-spacing: .06em;
   color: var(--muted);
   padding: 6px 16px;
+  cursor: none;
 }
 
 .nav-div {
