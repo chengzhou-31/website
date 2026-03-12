@@ -136,8 +136,9 @@ nav {
 
 .nav-links a:hover  { color: var(--white); background: rgba(255, 255, 255, 0.05); }
 .nav-links a.active { color: var(--white); background: rgba(255, 255, 255, 0.07); }
-.nav-name a:hover  { color: var(--white); background: rgba(255, 255, 255, 0.05); }
-.nav-name a.active { color: var(--white); background: rgba(255, 255, 255, 0.07); }
+
+.nav-name:hover { color: var(--white); background: rgba(255, 255, 255, 0.05); }
+.nav-name.active { color: var(--white); background: rgba(255, 255, 255, 0.07); }
 
 /* ─────────────────────────────────────────
    LAYOUT
