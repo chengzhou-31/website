@@ -9,8 +9,8 @@
   --border:   rgba(255, 255, 255, 0.07);
   --border-h: rgba(255, 255, 255, 0.14);
   --white:    #f0ede8;
-  --muted:    rgba(240, 237, 232, 0.40);
-  --subtle:   rgba(240, 237, 232, 0.20);
+  --muted:  rgba(240, 237, 232, 0.55);
+  --subtle: rgba(240, 237, 232, 0.32);
   --accent:   #d4c9b8;
 
   --r-sm: 8px;
@@ -101,7 +101,7 @@ nav {
 
 .nav-name {
   font-family: var(--mono);
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: .06em;
   color: var(--muted);
   padding: 6px 16px;
@@ -122,7 +122,7 @@ nav {
 
 .nav-links a {
   font-family: var(--mono);
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: .08em;
   color: var(--muted);
   padding: 6px 14px;
@@ -161,7 +161,7 @@ nav {
   align-items: center;
   gap: 8px;
   font-family: var(--mono);
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: .14em;
   color: var(--muted);
   background: var(--s2);
@@ -212,7 +212,7 @@ nav {
 
 .hero-bio {
   max-width: 400px;
-  font-size: 15px;
+  font-size: 17px;
   color: var(--muted);
   line-height: 1.8;
 }
@@ -236,7 +236,7 @@ nav {
   align-items: center;
   gap: 8px;
   font-family: var(--mono);
-  font-size: 15px;
+  font-size: 17px;
   letter-spacing: .08em;
   padding: 12px 22px;
   border-radius: 100px;
@@ -326,7 +326,7 @@ hr.div {
 }
 
 .about-card p {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--muted);
   line-height: 1.8;
   margin-bottom: 14px;
@@ -445,7 +445,7 @@ hr.div {
   align-items: center;
   gap: 6px;
   font-family: var(--mono);
-  font-size: 14px;
+  font-size: 16px;
   color: var(--muted);
   background: var(--s2);
   border: 1px solid var(--border);
@@ -478,13 +478,13 @@ hr.div {
 
 .exp-period {
   font-family: var(--mono);
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: .08em;
   color: var(--subtle);
 }
 
 .exp-role {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: var(--white);
   margin-bottom: 5px;
@@ -531,7 +531,7 @@ hr.div {
 .contact-card h2 em { font-style: italic; color: var(--accent); }
 
 .contact-sub {
-  font-size: 14px;
+  font-size: 16px;
   color: var(--muted);
   margin-bottom: 40px;
 }
@@ -548,7 +548,7 @@ hr.div {
   align-items: center;
   gap: 8px;
   font-family: var(--mono);
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: .1em;
   color: var(--muted);
   background: var(--s2);
