@@ -101,7 +101,7 @@ nav {
 
 .nav-name {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: .06em;
   color: var(--muted);
   padding: 6px 16px;
@@ -122,12 +122,13 @@ nav {
 
 .nav-links a {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: .08em;
   color: var(--muted);
   padding: 6px 14px;
   border-radius: 100px;
   transition: color .2s, background .2s;
+  cursor: none;
 }
 
 .nav-links a:hover  { color: var(--white); background: rgba(255, 255, 255, 0.05); }
@@ -160,7 +161,7 @@ nav {
   align-items: center;
   gap: 8px;
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: .14em;
   color: var(--muted);
   background: var(--s2);
@@ -235,7 +236,7 @@ nav {
   align-items: center;
   gap: 8px;
   font-family: var(--mono);
-  font-size: 12px;
+  font-size: 15px;
   letter-spacing: .08em;
   padding: 12px 22px;
   border-radius: 100px;
@@ -279,7 +280,7 @@ nav {
 
 .section-label {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: .2em;
   text-transform: uppercase;
   color: var(--subtle);
@@ -338,7 +339,7 @@ hr.div {
 
 .skills-title {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--subtle);
@@ -349,7 +350,7 @@ hr.div {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 11px 0;
+  padding: 14px 0;
   border-bottom: 1px solid var(--border);
 }
 
@@ -357,7 +358,7 @@ hr.div {
 
 .skill-cat {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--subtle);
@@ -396,7 +397,7 @@ hr.div {
 
 .project-index {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: .14em;
   color: var(--subtle);
   margin-bottom: 14px;
@@ -430,7 +431,7 @@ hr.div {
 
 .tag {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: .08em;
   color: var(--subtle);
   background: var(--s3);
@@ -444,7 +445,7 @@ hr.div {
   align-items: center;
   gap: 6px;
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 14px;
   color: var(--muted);
   background: var(--s2);
   border: 1px solid var(--border);
@@ -477,7 +478,7 @@ hr.div {
 
 .exp-period {
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: .08em;
   color: var(--subtle);
 }
@@ -503,7 +504,7 @@ hr.div {
 
 .exp-badge {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: .1em;
   background: var(--s3);
   border: 1px solid var(--border);
@@ -547,7 +548,7 @@ hr.div {
   align-items: center;
   gap: 8px;
   font-family: var(--mono);
-  font-size: 11px;
+  font-size: 14px;
   letter-spacing: .1em;
   color: var(--muted);
   background: var(--s2);
@@ -579,7 +580,7 @@ footer {
 
 .footer-t {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: .12em;
   color: var(--subtle);
 }
