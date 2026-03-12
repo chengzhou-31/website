@@ -51,3 +51,15 @@ const navObserver = new IntersectionObserver(entries => {
 }, { rootMargin: '-35% 0px -55% 0px' });
 
 sections.forEach(s => navObserver.observe(s));
+
+/* ─────────────────────────────────────────
+   SECTION LABEL
+   Increases opacity when scrollling towards label
+───────────────────────────────────────── */
+const labelObserver = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    entry.target.classList.toggle('in-view', entry.isIntersecting);
+  });
+}, { rootMargin: '-20% 0px -20% 0px' });
+
+document.querySelectorAll('.section-label').forEach(el => labelObserver.observe(el));

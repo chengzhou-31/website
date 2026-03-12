@@ -281,21 +281,26 @@ nav {
 
 .section-label {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: .2em;
   text-transform: uppercase;
   color: var(--subtle);
+  transition: color .5s ease;
   margin-bottom: 48px;
   display: flex;
   align-items: center;
   gap: 12px;
 }
 
+.section-label.in-view {
+  color: var(--muted);
+}
+
 .section-label::after {
   content: '';
   flex: 1;
   height: 1px;
-  background: var(--border);
+  background: currentColor;
 }
 
 hr.div {
@@ -340,7 +345,7 @@ hr.div {
 
 .skills-title {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: .18em;
   text-transform: uppercase;
   color: var(--subtle);
@@ -359,14 +364,14 @@ hr.div {
 
 .skill-cat {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: .1em;
   text-transform: uppercase;
   color: var(--subtle);
 }
 
 .skill-val {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--muted);
 }
 
@@ -398,7 +403,7 @@ hr.div {
 
 .project-index {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: .14em;
   color: var(--subtle);
   margin-bottom: 14px;
@@ -414,7 +419,7 @@ hr.div {
 }
 
 .project-desc {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--muted);
   line-height: 1.7;
 }
@@ -432,7 +437,7 @@ hr.div {
 
 .tag {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: .08em;
   color: var(--subtle);
   background: var(--s3);
@@ -492,20 +497,20 @@ hr.div {
 }
 
 .exp-company {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--muted);
   margin-bottom: 10px;
 }
 
 .exp-desc {
-  font-size: 13px;
+  font-size: 16px;
   color: var(--subtle);
   line-height: 1.7;
 }
 
 .exp-badge {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: .1em;
   background: var(--s3);
   border: 1px solid var(--border);
@@ -581,7 +586,7 @@ footer {
 
 .footer-t {
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 16px;
   letter-spacing: .12em;
   color: var(--subtle);
 }
